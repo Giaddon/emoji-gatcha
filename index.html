@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<head>
+
+</head>
+
+<body>
+  <div id="root" class="root">
+    <div class="container">
+    </div>
+  </div>
+  <button>Take one!</button>
+  <div id="winning-area"></div>
+  <script src="./gatcha.js" defer></script>
+</body>
+<style>
+  body {
+    font-size: 16px;
+  }
+
+  .root {
+    display: flex;
+    width: 19rem;
+    height: 19rem;
+    border-radius: 50%;
+    border: 14px solid black;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+
+  }
+
+  .container {
+    width: 16rem;
+    height: 16rem;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    gap: 0;
+  }
+
+  button {
+    margin: 0.5rem auto;
+    width: 8rem;
+    text-align: center;
+  }
+
+  #winning-area {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 0.2rem;
+  }
+</style>
